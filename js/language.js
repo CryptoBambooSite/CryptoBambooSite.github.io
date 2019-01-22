@@ -30,6 +30,12 @@ $(function() {
         $(this).text(data_ch[msg]);
       });
     }
+    if (language == "jp") {
+      $("[data-action]").each(function() {
+        var msg = $(this).attr("data-action");
+        $(this).text(data_jp[msg]);
+      });
+    }
   }
   // langString()
 });

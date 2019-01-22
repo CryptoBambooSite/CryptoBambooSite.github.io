@@ -18,27 +18,7 @@
 		<![endif]-->
   </head>
   <body>
-      <div id="langBox">
-          <span data-action="msg_language"></span><span data-action="sign_colon"></span>
-          <select id="lang">
-            <!-- <option value="browser">Indicated by the browser</option> -->
-            <option selected="selected"  value="en">ENGLISH</option>
-            <option value="ch">中文</option>
-          </select>
-          <span id="langBrowser"></span>
-        </div>
-
-        <div>
-          <span data-action="msg_backreport"></span>
-          <span data-action="sign_colon"></span>
-          <span data-action="msg_unsubcribed"></span>
-          <span data-action="sign_comma"></span>
-          <span data-action="msg_cause"></span>
-          <span data-action="sign_colon"></span>
-          <span data-action="msg_refused"></span>
-          <span data-action="sign_excalm"></span>
-          <div data-action="msg_help_sent"></div>
-        </div>
+     
       
     <!-- Page Loader-->
     <div id="page-loader">
@@ -93,7 +73,20 @@
                       </div>
                     </li>
                   </ul>
+                          
                 </div>
+                <div id="langBox">
+                  <span data-action="msg_language"></span><span data-action="sign_colon"></span>
+                  <select id="lang">
+                    <!-- <option value="browser">Indicated by the browser</option> -->
+                    <option selected="selected"  value="en">ENGLISH</option>
+                    <option value="ch">中文</option>
+                    <option value="jp">日本語</option>
+                  </select>
+                  <span id="langBrowser"></span>
+                </div>
+        
+      
               </div>
             </div>
             <div class="rd-navbar-main-outer">
@@ -111,7 +104,7 @@
                   <div class="rd-navbar-main-item"><a class="button button-xs button-primary" href="contacts.html">Get a quote</a></div>
                   <!-- RD Navbar Nav-->
                   <ul class="rd-navbar-nav">
-                    <li class="active"><a href="index.html">Home</a>
+                    <li class="active"><a href="index.html" data-action="home"></a>
                     </li>
                     <li><a href="about-us.html">About Us</a>
                     </li>
@@ -710,6 +703,7 @@
 
     <!-- <script src="js/jquery.js"></script> -->
     <script src="language/language_ch.js"></script>
+    <script src="language/language_jp.js"></script>
     <script src="language/language_en.js"></script>
     <script src="js/language.js"></script>
   </body>
