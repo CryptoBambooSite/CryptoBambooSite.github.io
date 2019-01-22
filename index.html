@@ -18,6 +18,28 @@
 		<![endif]-->
   </head>
   <body>
+      <div id="langBox">
+          <span data-action="msg_language"></span><span data-action="sign_colon"></span>
+          <select id="lang">
+            <!-- <option value="browser">Indicated by the browser</option> -->
+            <option selected="selected"  value="en">ENGLISH</option>
+            <option value="ch">中文</option>
+          </select>
+          <span id="langBrowser"></span>
+        </div>
+
+        <div>
+          <span data-action="msg_backreport"></span>
+          <span data-action="sign_colon"></span>
+          <span data-action="msg_unsubcribed"></span>
+          <span data-action="sign_comma"></span>
+          <span data-action="msg_cause"></span>
+          <span data-action="sign_colon"></span>
+          <span data-action="msg_refused"></span>
+          <span data-action="sign_excalm"></span>
+          <div data-action="msg_help_sent"></div>
+        </div>
+      
     <!-- Page Loader-->
     <div id="page-loader">
       <div class="page-loader-logo">
@@ -685,5 +707,10 @@
     <!-- Javascript-->
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+
+    <!-- <script src="js/jquery.js"></script> -->
+    <script src="language/language_ch.js"></script>
+    <script src="language/language_en.js"></script>
+    <script src="js/language.js"></script>
   </body>
 </html>
