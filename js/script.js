@@ -2151,7 +2151,7 @@ $document.ready(function () {
       show: false
     },
     color: {
-      pattern: ['#70b56f']
+      pattern: ['#a0e085']
     },
     point: {
       r: 4
@@ -2234,7 +2234,7 @@ $document.ready(function () {
         show: false
       },
       color: {
-        pattern: ['#70b56f', '#000']
+        pattern: ['#a0e085', '#000']
       },
       point: {
         r: 4
