@@ -257,12 +257,8 @@
           <div class="layout-bordered">
             <div class="layout-bordered__main text-center">
               <div class="layout-bordered__main-inner">
-                <h3>Get in Touch</h3>
-                <p>
-                  We are available 24/7 by fax, e-mail or by phone. You can also
-                  use our quick contact form to ask a question about our
-                  services and projects.
-                </p>
+                <h3 data-action="Get in Touch"></h3>
+                <p data-action="in_touch_detail"></p>
                 <!-- RD Mailform-->
                 <form
                   class="rd-mailform"
@@ -281,9 +277,11 @@
                           name="first-name"
                           data-constraints="@Required"
                         />
-                        <label class="form-label" for="contact-first-name"
-                          >First name</label
-                        >
+                        <label
+                          data-action="fist_name"
+                          class="form-label"
+                          for="contact-first-name"
+                        ></label>
                       </div>
                     </div>
                     <div class="cell-sm-6">
@@ -295,16 +293,21 @@
                           name="phone"
                           data-constraints="@Numeric @Required"
                         />
-                        <label class="form-label" for="contact-phone"
+                        <label
+                          data-action="Phone"
+                          class="form-label"
+                          for="contact-phone"
                           >Phone</label
                         >
                       </div>
                     </div>
                     <div class="cell-xs-12">
                       <div class="form-wrap">
-                        <label class="form-label" for="contact-message"
-                          >Your Message</label
-                        >
+                        <label
+                          data-action="you_message"
+                          class="form-label"
+                          for="contact-message"
+                        ></label>
                         <textarea
                           class="form-input"
                           id="contact-message"
@@ -322,18 +325,19 @@
                           name="email"
                           data-constraints="@Email @Required"
                         />
-                        <label class="form-label" for="contact-email"
-                          >E-mail</label
-                        >
+                        <label
+                          data-action="e-mail"
+                          class="form-label"
+                          for="contact-email"
+                        ></label>
                       </div>
                     </div>
                     <div class="cell-sm-6">
                       <button
+                        data-action="send_message"
                         class="button button-block button-primary"
                         type="submit"
-                      >
-                        Send Message
-                      </button>
+                      ></button>
                     </div>
                   </div>
                 </form>
