@@ -48,5 +48,13 @@ var data_jp = {
   you_message: "お問い合わせ内容",
   "e-mail": "メールアドレス",
   send_message: "送信",
-  "The text field is required": "入力されていません"
+  "The text field is required": "入力されていません",
+
+  Experience: "STOとは",
+  Experience_1:
+    "STO（Security Token Offering）は株式、債券、不動産などの「資産」をブロックチェーンの技術を通してトークン化することです。",
+  Experience_2:
+    "一般的に仮想通貨のに「貨幣」の性質を持ったものとは区別されて扱われています。何らかのサービスに対する利用料として使用されるものがユーティリティトークン（Utility Token）と呼ばれるのに対して、証券としての性質を有したものはセキュリティトークン（Security Token）と呼ばれています。",
+  Experience_3:
+    "また、詐欺事件などで問題が指摘されたICO（Initial coin offering）などと比べると、各国の証券法を遵守した形で発行されるSTOは比較的安全な資金調達方法として注目されています。"
 };
