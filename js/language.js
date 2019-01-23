@@ -1,8 +1,10 @@
 $(function() {
-  langString();
   //语言默认英文
   var language = $("#lang :selected").val();
-
+  console.log(language);
+  if (language == undefined) {
+    language = "jp";
+  }
   langString();
   //用语言种类选择
   $("#lang").change(function() {
