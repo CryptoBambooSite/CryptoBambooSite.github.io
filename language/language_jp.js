@@ -1,6 +1,6 @@
 var data_jp = {
   home: "ホーム ",
-  "Crypto Bamboo": "Crypto Bamboo",
+  "Crypto Bamboo": "サイト概要",
   solution: "ソリューション",
   "contact us": "お問い合わせ ",
   Visible: "Visible",
@@ -10,7 +10,8 @@ var data_jp = {
   Flexible: "Flexible",
   "Control Your Assets": "Control Your Assets",
 
-  info_one: "日本発\nSTO特化型のマルチプラットフォーム",
+  info_one: "日本発",
+  info_two: "STO特化型のマルチプラットフォーム",
 
   Regulated: "Regulated",
   Professional: "Professional",
