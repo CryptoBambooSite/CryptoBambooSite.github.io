@@ -6,6 +6,10 @@ var data_jp = {
   Visible: "Visible",
 
   "More Safety": "More Safety",
+
+  Flexible: "Flexible",
+  "Control Your Assets": "Control Your Assets",
+
   info_one: "日本発\nSTO特化型のマルチプラットフォーム",
 
   Regulated: "Regulated",
