@@ -2554,7 +2554,9 @@ $document.ready(function() {
   }
 
   var d3Charts = [];
-  var lineChartObjectData = [0.3, 0.08, 0.9, 65, 215],
+  var lineChartObjectDataReal = [616800,29924900,8853840,93922741,6576372746,21489611596];
+  var lineChartObjectData = [Math.log(616800),Math.log(29924900),Math.log(8853840),Math.log(93922741),Math.log(6576372746),Math.log(21489611596)],
+  
     lineChartObject = {
       bindto: "#line-chart",
       legend: {
@@ -2576,7 +2578,7 @@ $document.ready(function() {
       data: {
         x: "x",
         columns: [
-          ["x", 2014, 2015, 2016, 2017, 2018],
+          ["x", 2013,2014, 2015, 2016, 2017, 2018],
           ["data1"].concat(lineChartObjectData)
         ],
         axes: {
@@ -2596,14 +2598,11 @@ $document.ready(function() {
         }
       },
       labels: true,
-      yAxis:{
-            name : '流量(m^3/s)',
-
-        },
+      
       axis: {
         x: {
           // label:'年',
-          min: 2014,
+          min: 2013,
           max: 2018,
           tick: {
             // values: fillNumbers(13),
@@ -2619,8 +2618,8 @@ $document.ready(function() {
         },
         y: {
           label:"億ドル",
-          min: 0,
-          max: 250,
+          min: 11,
+          max: 24,
           tick: {
             // values: fillNumbers(13),
             format: function(x) {
@@ -2648,7 +2647,7 @@ $document.ready(function() {
             // return (
             //   (val == 0 ? "" : val > 0 ? "+ " : "- ") + Math.abs(val) + " %"
             // );
-            return lineChartObjectData[index] +"億ドル";
+            return lineChartObjectDataReal[index] +"億ドル";
           }
         }
       },
