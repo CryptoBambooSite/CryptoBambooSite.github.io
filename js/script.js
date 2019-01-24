@@ -2554,12 +2554,13 @@ $document.ready(function() {
   }
 
   var d3Charts = [];
-  var lineChartObjectData = [100, 200, 300, 400, 500, 600],
+  var lineChartObjectData = [0.3, 0.08, 0.9, 65, 215],
     lineChartObject = {
       bindto: "#line-chart",
       legend: {
         show: false
       },
+
       color: {
         pattern: ["#a0e085"]
       },
@@ -2567,7 +2568,7 @@ $document.ready(function() {
         r: 4
       },
       padding: {
-        left: 30,
+        left: 100,
         right: 30,
         top: 0,
         bottom: 0
@@ -2575,7 +2576,7 @@ $document.ready(function() {
       data: {
         x: "x",
         columns: [
-          ["x", 2013, 2014, 2015, 2016, 2017, 2018],
+          ["x", 2014, 2015, 2016, 2017, 2018],
           ["data1"].concat(lineChartObjectData)
         ],
         axes: {
@@ -2597,7 +2598,7 @@ $document.ready(function() {
       labels: true,
       axis: {
         x: {
-          min: 2013,
+          min: 2014,
           max: 2018,
           tick: {
             // values: fillNumbers(13),
@@ -2612,12 +2613,12 @@ $document.ready(function() {
           }
         },
         y: {
-          min: 1,
-          max: 1000,
+          min: 0,
+          max: 250,
           tick: {
             // values: fillNumbers(13),
             format: function(x) {
-              return x ;
+              return x +"億ドル";
             },
             outer: false
           },
