@@ -71,4 +71,20 @@ var data_jp = {
   "num_detai_3":"日本・中国・シンガポールセーシェルにビジネスを展開",
   "num_4":"5",
   "num_detai_4":"５種の金融ライセンスを保有",
+
+
+  "service":"ソリューション",
+  "Our production":"総合的バックアップ",
+ 
+
+  "DIGITAL ADVERTISING":"信頼の金融ライセンス",
+  "MEDIA BUYING":"流動性の回復",
+  "BRAND MARKETING":"資産の統合運用",
+  "MARKET RESEARCH":"グローバル取引拡大",
+  "service_title":"金融商品取引業・仮想通貨取引に関わるライセンスを全て保有",
+"service_item1":"・仮想通貨交換業者トークン発行を技術的にサポート",
+"service_item2":"・第一種金融商品取引業者証券トークン化・レバレッジ取引",
+"service_item3":"・第二種金融商品取引業者STO資金調達のインフラ構築",
+"service_item4":"・投資運用業者ファンド資金進出を促進",
+"service_item5":"・投資助言・代理業者STOに関する包括的なコンサルティング",
 };
