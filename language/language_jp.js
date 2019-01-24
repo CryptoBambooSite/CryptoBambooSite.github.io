@@ -86,7 +86,7 @@ var data_jp = {
   service_title: "金融商品取引業・仮想通貨取引に関わるライセンスを全て保有",
   service_item1: "・仮想通貨交換業者",
   service_item2: "・第一種金融商品取引業者",
-  service_item3: "・第二種金融商品取引業者STO資金調達のインフラ構築",
+  service_item3: "・第二種金融商品取引業者",
   service_item4: "・投資運用業者",
   service_item5: "・投資助言・代理業者",
 
