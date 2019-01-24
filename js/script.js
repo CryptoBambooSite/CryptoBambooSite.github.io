@@ -2575,7 +2575,7 @@ $document.ready(function() {
       data: {
         x: "x",
         columns: [
-          ["x", 1, 1.5, 3, 4.4, 5, 7],
+          ["x", 2013, 2014, 12015, 2016, 2017, 2018],
           ["data1"].concat(lineChartObjectData)
         ],
         axes: {
@@ -2597,12 +2597,12 @@ $document.ready(function() {
       labels: true,
       axis: {
         x: {
-          min: 1,
-          max: 7,
+          min: 2013,
+          max: 2018,
           tick: {
-            values: fillNumbers(13),
+            // values: fillNumbers(13),
             format: function(x) {
-              return ("0" + x).slice(-2);
+              return x;
             },
             outer: false
           },
