@@ -134,7 +134,7 @@ form {
 * ==================================================
 */
 body {
-	font-family: "PT Sans", Helvetica, Arial, sans-serif;
+	font-family: font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.5;
@@ -275,7 +275,7 @@ h1 * + .mark-circle, h2 * + .mark-circle, h3 * + .mark-circle, h4 * + .mark-circ
 }
 
 h1, h2, h3 {
-	font-family: "Raleway", "Times New Roman", Times, serif;
+	font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif,
 }
 
 h1,
@@ -426,7 +426,7 @@ h6,
 .heading-bordered {
 	position: relative;
 	padding-left: 26px;
-	font-family: "PT Sans", Helvetica, Arial, sans-serif;
+	font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif,
 	font-weight: 400;
 }
 
@@ -714,7 +714,7 @@ hr {
 	font-size: 14px;
 	line-height: 24px;
 	border-radius: 0;
-	font-family: "PT Sans", Helvetica, Arial, sans-serif;
+	font-family: font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";
 	font-weight: 700;
 	transition: .33s all ease;
 	border: 3px solid;
@@ -1073,7 +1073,7 @@ hr {
 }
 
 .box-custom .object-decorated_inline {
-	font-family: "PT Sans", Helvetica, Arial, sans-serif;
+	font-family: font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";
 	font-weight: 400;
 	opacity: .26;
 }
