@@ -2554,7 +2554,7 @@ $document.ready(function() {
   }
 
   var d3Charts = [];
-  var lineChartObjectData = [1, 2, 1.3, 3, 4.6, 2],
+  var lineChartObjectData = [100, 200, 300, 400, 500, 600],
     lineChartObject = {
       bindto: "#line-chart",
       legend: {
@@ -2575,7 +2575,7 @@ $document.ready(function() {
       data: {
         x: "x",
         columns: [
-          ["x", 2013, 2014, 12015, 2016, 2017, 2018],
+          ["x", 2013, 2014, 2015, 2016, 2017, 2018],
           ["data1"].concat(lineChartObjectData)
         ],
         axes: {
@@ -2612,12 +2612,12 @@ $document.ready(function() {
           }
         },
         y: {
-          min: 0,
-          max: 6,
+          min: 1,
+          max: 1000,
           tick: {
-            values: fillNumbers(13),
+            // values: fillNumbers(13),
             format: function(x) {
-              return x == 0 ? "" : ("0" + x).slice(-2);
+              return x ;
             },
             outer: false
           },
