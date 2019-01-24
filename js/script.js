@@ -2554,7 +2554,7 @@ $document.ready(function() {
   }
 
   var d3Charts = [];
-  var lineChartObjectData = [1, 2, 1.3, 3, 4.6, 2, 1.8, 3, 3.3, 3.6],
+  var lineChartObjectData = [1, 2, 1.3, 3, 4.6, 2],
     lineChartObject = {
       bindto: "#line-chart",
       legend: {
@@ -2575,7 +2575,7 @@ $document.ready(function() {
       data: {
         x: "x",
         columns: [
-          ["x", 1, 1.5, 3, 4.4, 5, 7, 9, 10, 11, 12],
+          ["x", 1, 1.5, 3, 4.4, 5, 7],
           ["data1"].concat(lineChartObjectData)
         ],
         axes: {
@@ -2597,8 +2597,8 @@ $document.ready(function() {
       labels: true,
       axis: {
         x: {
-          min: 0,
-          max: 12.5,
+          min: 1,
+          max: 7,
           tick: {
             values: fillNumbers(13),
             format: function(x) {
