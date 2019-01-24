@@ -2554,7 +2554,8 @@ $document.ready(function() {
   }
 
   var d3Charts = [];
-  var lineChartObjectDataReal = [616800,29924900,8853840,93922741,6576372746,21489611596];
+  var lineChartObjectDataReal =  [0.006,0.3, 0.08, 0.9, 65, 215];
+
   var lineChartObjectData = [Math.log(616800),Math.log(29924900),Math.log(8853840),Math.log(93922741),Math.log(6576372746),Math.log(21489611596)],
   
     lineChartObject = {
