@@ -67,8 +67,8 @@ var data_jp = {
   "View statistics": "統計を見る",
 
   num_1: "1",
-  num_detai_1: "日本初  のSTO\n\n\n  プラットフォーム",
-  // num_detai_1_1: "プラットフォーム",
+  num_detai_1: "日本初のSTO",
+  num_detai_1_1: "プラットフォーム",
   num_2: "5",
   num_detai_2: "会社設立から５年",
   num_3: "4",
