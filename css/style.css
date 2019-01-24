@@ -14542,7 +14542,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .rd-navbar-fullwidth.rd-navbar--is-clone .rd-navbar-brand img, .rd-navbar-fullwidth.rd-navbar--is-stuck .rd-navbar-brand img {
-	max-height: 47px;
+	max-height: 70px;
 }
 
 .rd-navbar-fullwidth.rd-navbar--is-clone .rd-navbar-main-outer, .rd-navbar-fullwidth.rd-navbar--is-stuck .rd-navbar-main-outer {
