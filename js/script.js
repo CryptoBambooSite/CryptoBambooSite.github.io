@@ -2596,8 +2596,13 @@ $document.ready(function() {
         }
       },
       labels: true,
+      yAxis:{
+            name : '流量(m^3/s)',
+
+        },
       axis: {
         x: {
+          // label:'年',
           min: 2014,
           max: 2018,
           tick: {
@@ -2613,12 +2618,13 @@ $document.ready(function() {
           }
         },
         y: {
+          label:"億ドル",
           min: 0,
           max: 250,
           tick: {
             // values: fillNumbers(13),
             format: function(x) {
-              return x +"億ドル";
+              return x ;
             },
             outer: false
           },
@@ -2634,14 +2640,15 @@ $document.ready(function() {
             return "";
           },
           value: function(value, ratio, id, index) {
-            var val = Math.round(
-              typeof lineChartObjectData[index - 1] === "undefined"
-                ? 0
-                : ((value - lineChartObjectData[index - 1]) / value) * 100
-            );
-            return (
-              (val == 0 ? "" : val > 0 ? "+ " : "- ") + Math.abs(val) + " %"
-            );
+            // var val = Math.round(
+            //   typeof lineChartObjectData[index - 1] === "undefined"
+            //     ? 0
+            //     : ((value - lineChartObjectData[index - 1]) / value) * 100
+            // );
+            // return (
+            //   (val == 0 ? "" : val > 0 ? "+ " : "- ") + Math.abs(val) + " %"
+            // );
+            return lineChartObjectData[index] +"億ドル";
           }
         }
       },
