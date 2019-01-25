@@ -322,7 +322,7 @@
               <div class="box-spacer-right">
                 <div
                   class="d3-chart"
-                  id="line-chart-2"
+                  id="line-chart-2222"
                   style="width:100%; height: 370px; margin: 0 auto"
                 ></div>
               </div>
@@ -397,11 +397,116 @@
 
       gtag("config", "UA-132873098-1");
     </script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.1.0/echarts-en.common.js"></script>
     <script type="application/javascript">
       /*导入头部和尾部*/
       $(document).ready(function() {
         $(".footer").load("./footer.html");
+      });
+    </script>
+
+    <script type="text/javascript">
+      // alert("1.准备初始化echarts实例");
+      // 基于准备好的dom，初始化echarts实例
+      var myChart = echarts.init(document.getElementById("line-chart-2222"));
+
+      // 指定图表的配置项和数据
+      var colors = ["#000", "#70b56f", "#70b56f"];
+      option = {
+        color: colors,
+        tooltip: {
+          trigger: "axis",
+          axisPointer: {
+            type: "cross"
+          }
+        },
+        grid: {
+          right: "25%"
+        },
+        // toolbox: {
+        //   feature: {
+        //     dataView: { show: true, readOnly: false },
+        //     restore: { show: true },
+        //     saveAsImage: { show: true }
+        //   }
+        // },
+        legend: {
+          data: ["ICO", "STO"]
+        },
+        xAxis: [
+          {
+            type: "category",
+            axisTick: {
+              alignWithLabel: true
+            },
+            data: [
+              "1月",
+              "2月",
+              "4月",
+              "5月",
+              "6月",
+              "7月",
+              "8月",
+              "9月",
+              "10月"
+            ]
+          }
+        ],
+        yAxis: [
+          {
+            type: "value",
+            name: "ICO",
+            min: 0,
+            max: 300,
+            position: "right",
+            axisLine: {
+              lineStyle: {
+                color: colors[0]
+              }
+            },
+            axisLabel: {
+              formatter: "{value}"
+            }
+          },
+
+          {
+            type: "value",
+            name: "STO",
+            min: 0,
+            max: 30,
+            position: "left",
+            axisLine: {
+              lineStyle: {
+                color: colors[2]
+              }
+            },
+            axisLabel: {
+              formatter: "{value}"
+            }
+          }
+        ],
+        series: [
+          {
+            name: "Data-A",
+            type: "line",
+            data: [129, 174, 264, 268, 275, 221, 180, 159, 159]
+          },
+          {
+            name: "Data-C",
+            type: "line",
+            yAxisIndex: 1,
+            data: [5, 5, 4, 3, 5, 8, 9, 20, 22]
+          }
+        ]
+      };
+
+      // alert("2.准备指定配置项");
+      // 使用刚指定的配置项和数据显示图表。
+      myChart.setOption(option);
+
+      // 相当于 document.ready，{代码}
+      $(function() {
+        // alert("3.页面加载完毕");
       });
     </script>
   </body>
