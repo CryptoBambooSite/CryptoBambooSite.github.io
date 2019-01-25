@@ -108,5 +108,10 @@ var data_jp = {
   history_ditail_3: "トークンによる資金調達が爆発的に普及",
   history_ditail_3_1: "数百件のＩＣＯが実施され、約４５００億円が集まる",
 
-  Statistics: "データ"
+  Statistics: "データ",
+
+  "Our Targets": "資産のトークン化・資金調達を我々がバックアップします",
+  Targets_detail:
+    "豊富な経験と知識で、アセットマネジメントをより効率的、安全にすることが我々の使命です。",
+  "Our Certificates": "STOに関しての情報共有"
 };
