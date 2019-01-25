@@ -124,7 +124,7 @@ var data_jp = {
   button_1: "お問い合わせ",
   button_2: "ソリューション",
 
-  statistics_second_title: "",
+  statistics_second_title: "2018年に行われたSTO件数",
   statistics_second_item_title: "ICOからSTOへ",
   statistics_second_item_1:
     "2017年はICO元年、2018年はSTO元年と言われています。",
