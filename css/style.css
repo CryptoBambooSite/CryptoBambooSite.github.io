@@ -6527,7 +6527,7 @@ html:not(.tablet):not(.mobile) .post-modern__image-wrap:hover:after {
 	bottom: 0;
 	left: 0;
 	width: 25px;
-	border: 1px solid #909296;
+	border: 1px solid #fff;
 	border-right-width: 0;
 	border-bottom-width: 0;
 }
