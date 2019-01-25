@@ -2666,8 +2666,11 @@ $document.ready(function() {
       }
     };
 
-var month = ["January","February","April","May","June","July","August","September","October"];
-  var lineChartObjectData2 = [[129, 174, 264,268,275,221,180,159,159], [5,5,4,3,5,8,9,20,22]],
+  var month = ["1月", "2月", "4月", "5月", "6月", "7月", "8月", "9月", "10月"];
+  var lineChartObjectData2 = [
+      [129, 174, 264, 268, 275, 221, 180, 159, 159],
+      [5, 5, 4, 3, 5, 8, 9, 20, 22]
+    ],
     lineChartObject2 = {
       bindto: "#line-chart-2",
       legend: {
@@ -2695,8 +2698,8 @@ var month = ["January","February","April","May","June","July","August","Septembe
           data2: "STO"
         },
         columns: [
-          ["x1", 1,2,3,4,5,6,7,8,9],
-          ["x2", 1,2,3,4,5,6,7,8,9],
+          ["x1", 1, 2, 3, 4, 5, 6, 7, 8, 9],
+          ["x2", 1, 2, 3, 4, 5, 6, 7, 8, 9],
           ["data1"].concat(lineChartObjectData2[0]),
           ["data2"].concat(lineChartObjectData2[1])
         ],
