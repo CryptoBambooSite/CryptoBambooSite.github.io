@@ -5,6 +5,7 @@ var data_jp = {
   home: "ホーム ",
   "Crypto Bamboo": "サイト概要",
   solution: "ソリューション",
+  project: "プロジェクト",
   "contact us": "お問い合わせ ",
   Visible: "Visible",
 
