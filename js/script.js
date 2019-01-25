@@ -2666,8 +2666,8 @@ $document.ready(function() {
       }
     };
 
-  var month = [0, "1-3", 0, 0, 0, "4-6", 0, 0, 0, "7-9", 0, 0, 0, "10-12"];
-  var lineChartObjectData2 = [[807, 716, 430, 182], [14, 16, 51]],
+var month = ["January","February","April","May","June","July","August","September","October"];
+  var lineChartObjectData2 = [[129, 174, 264,268,275,221,180,159,159], [5,5,4,3,5,8,9,20,22]],
     lineChartObject2 = {
       bindto: "#line-chart-2",
       legend: {
@@ -2695,8 +2695,8 @@ $document.ready(function() {
           data2: "STO"
         },
         columns: [
-          ["x1", 1, 5, 9, 13],
-          ["x2", 1, 5, 9, 13],
+          ["x1", 1,2,3,4,5,6,7,8,9],
+          ["x2", 1,2,3,4,5,6,7,8,9],
           ["data1"].concat(lineChartObjectData2[0]),
           ["data2"].concat(lineChartObjectData2[1])
         ],
@@ -2716,8 +2716,8 @@ $document.ready(function() {
       axis: {
         x: {
           label: "2018",
-          min: 0,
-          max: 14,
+          min: 1,
+          max: 10,
           tick: {
             // values: fillNumbers(13),
             format: function(x) {
@@ -2733,7 +2733,7 @@ $document.ready(function() {
         y: {
           label: "件数",
           min: 0,
-          max: 900,
+          max: 300,
           tick: {
             // values: fillNumbers(13),
             format: function(x) {
