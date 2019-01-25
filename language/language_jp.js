@@ -118,5 +118,13 @@ var data_jp = {
     "セキュリティトークンは急速な勢いで技術発展が起こっています。クリプトバンブーではSTOの法規制、発展動向に関する最新情報を発信致します。",
 
   button_1: "お問い合わせ",
-  button_2: "ソリューション"
+  button_2: "ソリューション",
+
+  statistics_second_item_title: "ICOからSTOへ",
+  statistics_second_item_1:
+    "2017年はICO元年、2018年はSTO元年と言われています。",
+  statistics_second_item_2:
+    "世界で多くのSTOプロジェクトが生まれ、法令で定められた審査を通ったものが資金を集めやすくなっています。",
+  statistics_second_item_3:
+    "無秩序に行われるICOが各国で禁止されるのに対して、STOは政府の支持を受けやすい傾向にあります。"
 };
