@@ -106,5 +106,8 @@ var data_jp = {
 
   history_title_3: "2017年 ICO元年",
   history_ditail_3: "トークンによる資金調達が爆発的に普及",
-  history_ditail_3_1: "数百件のＩＣＯが実施され、約４５００億円が集まる"
+  history_ditail_3_1: "数百件のＩＣＯが実施され、約４５００億円が集まる",
+
+
+  Statistics: "データ",
 };
