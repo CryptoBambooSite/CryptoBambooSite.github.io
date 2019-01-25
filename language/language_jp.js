@@ -97,14 +97,14 @@ var data_jp = {
   service_item5_detail: "STOに関する包括的なコンサルティング",
 
   "Our History": "トークン資金調達の動向",
-  history_title_1: "2014年 イーサリアム　ICO",
+  history_title_1: "2014年 イーサリアムの大型資金調達",
   history_ditail_1: "プロジェクトのためICOを実施し、2週間で1500万ドルを調達",
 
   history_title_2: "2019年 日本で本格的な法制化",
   history_ditail_2:
-    "金融庁が通常国会に資金決済法と金融商品取引法の改正案を提出",
+    "金融庁による資金決済法と金融商品取引法の改正案が通常国会に提出",
 
   history_title_3: "2017年 ICO元年",
-  history_ditail_3:
-    "トークンによる資金調達が爆発的に普及 数百件のＩＣＯが実施され、約４５００億円が集まる"
+  history_ditail_3: "トークンによる資金調達が爆発的に普及",
+  history_ditail_3_1: "数百件のＩＣＯが実施され、約４５００億円が集まる"
 };
