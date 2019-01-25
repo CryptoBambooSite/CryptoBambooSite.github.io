@@ -96,7 +96,7 @@ var data_jp = {
   service_item4_detail: "ファンド資金進出を促進",
   service_item5_detail: "STOに関する包括的なコンサルティング",
 
-  "Our History": "トークン資金調達の動向",
+  History: "トークン資金調達の動向",
   history_title_1: "2014年 イーサリアムの大型資金調達",
   history_ditail_1: "プロジェクトのためICOを実施し、2週間で1500万ドルを調達",
 
@@ -108,6 +108,5 @@ var data_jp = {
   history_ditail_3: "トークンによる資金調達が爆発的に普及",
   history_ditail_3_1: "数百件のＩＣＯが実施され、約４５００億円が集まる",
 
-
-  Statistics: "データ",
+  Statistics: "データ"
 };
