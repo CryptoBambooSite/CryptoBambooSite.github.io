@@ -2697,8 +2697,8 @@ $document.ready(function() {
           data2: "2017"
         },
         columns: [
-          ["x1", 1, 1.5, 3, 4.4, 7, 9, 12, 13],
-          ["x2", 1, 1.5, 3, 4.4, 7, 10, 11, 12],
+          ["x1", 1, 2, 3, 4, 5, 6, 7, 8],
+          ["x2", 1, 2, 3, 4, 5, 6, 7, 8],
           ["data1"].concat(lineChartObjectData2[0]),
           ["data2"].concat(lineChartObjectData2[1])
         ],

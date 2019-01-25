@@ -1,4 +1,7 @@
 var data_jp = {
+  header_1: "最先端のSTOプラットフォーム",
+  header_2: "金融ライセンス５種保有",
+  header_3: "info@cryptobamboo.net",
   home: "ホーム ",
   "Crypto Bamboo": "サイト概要",
   solution: "ソリューション",
