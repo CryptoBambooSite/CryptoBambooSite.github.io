@@ -2666,24 +2666,22 @@ $document.ready(function() {
       }
     };
 
-  var lineChartObjectData2 = [
-      [24, 72, 289, 561, 807, 716, 430, 182],
-      [11, 25, 79, 136, 180, 158, 89, 27]
-    ],
+  var month = [0, "1-3", 0, 0, 0, "4-6", 0, 0, 0, "7-9", 0, 0, 0, "10-12"];
+  var lineChartObjectData2 = [[807, 716, 430, 182], [14, 16, 51]],
     lineChartObject2 = {
       bindto: "#line-chart-2",
       legend: {
         show: false
       },
       color: {
-        pattern: ["#a0e085", "#000"]
+        pattern: ["#000", "#a0e085"]
       },
       point: {
         r: 4
       },
       padding: {
         left: 40,
-        right: 30,
+        right: 50,
         top: 10,
         bottom: 0
       },
@@ -2693,12 +2691,12 @@ $document.ready(function() {
           data2: "x2"
         },
         names: {
-          data1: "2016",
-          data2: "2017"
+          data1: "ICO",
+          data2: "STO"
         },
         columns: [
-          ["x1", 1, 2, 3, 4, 5, 6, 7, 8],
-          ["x2", 1, 2, 3, 4, 5, 6, 7, 8],
+          ["x1", 1, 5, 9, 13],
+          ["x2", 1, 5, 9, 13],
           ["data1"].concat(lineChartObjectData2[0]),
           ["data2"].concat(lineChartObjectData2[1])
         ],
@@ -2717,12 +2715,13 @@ $document.ready(function() {
       labels: true,
       axis: {
         x: {
+          label: "2018",
           min: 0,
-          max: 12.5,
+          max: 14,
           tick: {
             // values: fillNumbers(13),
             format: function(x) {
-              return ("0" + x).slice(-2);
+              return month[x];
             },
             outer: false
           },
@@ -2732,6 +2731,7 @@ $document.ready(function() {
           }
         },
         y: {
+          label: "件数",
           min: 0,
           max: 900,
           tick: {
