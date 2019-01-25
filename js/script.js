@@ -2698,8 +2698,8 @@ $document.ready(function() {
           data2: "STO"
         },
         columns: [
-          ["x1", 1, 2, 3, 4, 5, 6, 7, 8, 9],
-          ["x2", 1, 2, 3, 4, 5, 6, 7, 8, 9],
+          ["x1", 0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+          ["x2", 0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
           ["data1"].concat(lineChartObjectData2[0]),
           ["data2"].concat(lineChartObjectData2[1])
         ],
@@ -2719,7 +2719,7 @@ $document.ready(function() {
       axis: {
         x: {
           label: "2018",
-          min: 1,
+          min: 0,
           max: 10,
           tick: {
             // values: fillNumbers(13),
