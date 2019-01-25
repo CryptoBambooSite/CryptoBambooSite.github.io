@@ -2667,8 +2667,8 @@ $document.ready(function() {
     };
 
   var lineChartObjectData2 = [
-      [1, 2, 1.5, 3, 2, 1.6, 2],
-      [2.5, 3.5, 3, 4.5, 3.5, 4.3, 4.8, 5]
+      [24, 72, 289, 561, 807, 716, 430, 182],
+      [11, 25, 79, 136, 180, 158, 89, 27]
     ],
     lineChartObject2 = {
       bindto: "#line-chart-2",
@@ -2682,9 +2682,9 @@ $document.ready(function() {
         r: 4
       },
       padding: {
-        left: 30,
+        left: 40,
         right: 30,
-        top: 0,
+        top: 10,
         bottom: 0
       },
       data: {
@@ -2697,7 +2697,7 @@ $document.ready(function() {
           data2: "2017"
         },
         columns: [
-          ["x1", 1, 1.5, 3, 4.4, 7, 9, 12],
+          ["x1", 1, 1.5, 3, 4.4, 7, 9, 12, 13],
           ["x2", 1, 1.5, 3, 4.4, 7, 10, 11, 12],
           ["data1"].concat(lineChartObjectData2[0]),
           ["data2"].concat(lineChartObjectData2[1])
@@ -2720,7 +2720,7 @@ $document.ready(function() {
           min: 0,
           max: 12.5,
           tick: {
-            values: fillNumbers(13),
+            // values: fillNumbers(13),
             format: function(x) {
               return ("0" + x).slice(-2);
             },
@@ -2733,11 +2733,12 @@ $document.ready(function() {
         },
         y: {
           min: 0,
-          max: 6,
+          max: 900,
           tick: {
-            values: fillNumbers(13),
+            // values: fillNumbers(13),
             format: function(x) {
-              return x == 0 ? "" : ("0" + x).slice(-2);
+              // return x == 0 ? "" : ("0" + x).slice(-2);
+              return x;
             },
             outer: false
           },

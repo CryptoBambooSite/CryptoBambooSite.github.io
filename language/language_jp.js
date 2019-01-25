@@ -42,7 +42,7 @@ var data_jp = {
 
   "Get in Touch": "お問い合わせ",
   in_touch_detail:
-    "当サービスに関して、ご不明な点がございましたら、お気軽にお問い合わせ下さい",
+    "当サービスに関してご不明な点がございましたら、お気軽にお問い合わせ下さい（資料請求をご希望の場合はお問い合わせ内容にご入力下さい）",
   fist_name: "お名前",
   Phone: "電話番号",
   you_message: "お問い合わせ内容",
@@ -120,6 +120,7 @@ var data_jp = {
   button_1: "お問い合わせ",
   button_2: "ソリューション",
 
+  statistics_second_title: "",
   statistics_second_item_title: "ICOからSTOへ",
   statistics_second_item_1:
     "2017年はICO元年、2018年はSTO元年と言われています。",
